@@ -23,7 +23,7 @@ int main(){
     Imprime(A,tam);
 }
  void Imprime(int A[],int tam){
-    for(int i=0; i<tam-1; i++)
+    for(int i=0; i<tam; i++)
         cout<<A[i]<<" ";
  }
  void Llenar(int A[], int tam){
